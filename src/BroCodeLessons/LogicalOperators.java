@@ -6,22 +6,22 @@ public class LogicalOperators {
         // || (OR gate)
         // ! (NOT gate)
         int engineOil_temperature = 80;
-        int transmissionOil_temperature = 80;
-        boolean drivers_focus = false;
+        int transmissionOil_temperature = 76;
+        boolean drivers_focus = true;
 
         String command;
 
-        if(engineOil_temperature >= 80 && transmissionOil_temperature > 75 && drivers_focus == true){
+        if(engineOil_temperature>=80 && transmissionOil_temperature>75 && drivers_focus==true){
             command = "car: ready\ndriver: ready";
         }
-        else if(engineOil_temperature >= 80 && transmissionOil_temperature > 75 && drivers_focus == false){
+        else if(engineOil_temperature>=80 && transmissionOil_temperature>75 && drivers_focus!=true){
             command = "car: ready\ndriver: NOT ready";
         }
         else{
             command = "car: NOT ready\ndriver: NOT ready";
         }
 
-        System.out.print("No. 19\n" + command);
+        System.out.println("No. 19\n" + command);
         System.out.println("End");
 
     }
