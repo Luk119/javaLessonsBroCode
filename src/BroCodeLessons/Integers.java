@@ -1,4 +1,4 @@
-package zadania;
+package BroCodeLessons;
 public class Integers {
     public static void main(String[] args) {
 

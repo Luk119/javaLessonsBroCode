@@ -1,4 +1,4 @@
-package zadania;
+package BroCodeLessons;
 
 public class MathClasses {
     public static void main(String[] args){

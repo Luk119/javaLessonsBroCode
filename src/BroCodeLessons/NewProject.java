@@ -1,4 +1,4 @@
-package zadania;
+package BroCodeLessons;
 
 public class NewProject {
 

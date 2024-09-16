@@ -1,4 +1,4 @@
-package zadania;
+package BroCodeLessons;
 import java.util.Scanner;
 
 public class DataTypes {
