@@ -22,6 +22,7 @@ public class LogicalOperators {
         }
 
         System.out.print("No. 19\n" + command);
+        System.out.println("End");
 
     }
 }
