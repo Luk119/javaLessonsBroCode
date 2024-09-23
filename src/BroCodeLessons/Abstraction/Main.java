@@ -7,5 +7,8 @@ public class Main {
 
         Car car = new Car();
         car.go();
+
+        Bike bike = new Bike();
+        bike.go();
     }
 }
