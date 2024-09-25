@@ -30,6 +30,7 @@ public class ExceptionHandling {
         }
         finally{
             System.out.println("This will always print");
+            scanner.close();
         }
     }
 
