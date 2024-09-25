@@ -1,4 +1,4 @@
-package BroCodeLessons.FileReader;
+package BroCodeLessons.FileWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
