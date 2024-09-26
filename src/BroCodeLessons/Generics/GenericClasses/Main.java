@@ -15,16 +15,16 @@ public class Main {
         System.out.println(myChar.getValue());
         System.out.println(myString.getValue());
 
-        MyGenericClass<Integer> myInt2 = new MyGenericClass<>(2);
-        MyGenericClass<Double> myDouble2 = new MyGenericClass<>(2.2);
-        MyGenericClass<Character> myChar2 = new MyGenericClass<>('b');
-        MyGenericClass<String> myString2 = new MyGenericClass<>("CBA");
+        MyGenericClass<Integer, Integer> myInt2 = new MyGenericClass<>(2, 3);
+        MyGenericClass<Double, Double> myDouble2 = new MyGenericClass<>(2.2, 2.0);
+//        MyGenericClass<Character, Character> myChar2 = new MyGenericClass<>('b', 'c');
+//        MyGenericClass<String, String> myString2 = new MyGenericClass<>("CBA", "a123");
 
         ArrayList<String> myFriend = new ArrayList<>();
 
         System.out.println(myInt2.getValue());
         System.out.println(myDouble2.getValue());
-        System.out.println(myChar2.getValue());
-        System.out.println(myString2.getValue());
+//        System.out.println(myChar2.getValue());
+//        System.out.println(myString2.getValue());
     }
 }
