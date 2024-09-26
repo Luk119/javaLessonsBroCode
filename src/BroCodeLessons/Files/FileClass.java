@@ -5,7 +5,8 @@ import java.io.IOException;
 public class FileClass {
     public static void main(String[] args){
 
-        File file = new File("src" + File.separator + "BroCodeLessons" + File.separator + "Files" + File.separator + "text_file.txt");
+        File file = new File("src" + File.separator + "BroCodeLessons" + File.separator + "Files" +
+                File.separator + "text_file.txt");
 
         if(!file.exists()){
             try {
