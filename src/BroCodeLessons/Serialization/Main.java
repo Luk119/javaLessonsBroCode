@@ -23,6 +23,11 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
+//        System.out.println(user.name);
+//        System.out.println(user.password);
+//        user.sayHello();
 
+        long serialVersioNUID = ObjectStreamClass.lookup(user.getClass()).getSerialVersionUID();
+        System.out.println(serialVersioNUID);
     }
 }
